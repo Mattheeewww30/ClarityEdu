@@ -1,0 +1,20 @@
+{
+  "name": "econoweb",
+  "version": "1.0.0",
+  "description": "Sitios web profesionales en 24-48h",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/style.css --minify",
+    "preview": "vite preview"
+  },
+  "author": "Econoweb",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.0.0"
+  }
+}
